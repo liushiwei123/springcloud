@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Client1" />
+        <module name="demo (1)" />
+        <module name="EurekaServer1" />
+        <module name="EurekaServer2" />
+        <module name="Gateway" />
+        <module name="Route" />
+        <module name="server-feign" />
+        <module name="Server1" />
+        <module name="spring" />
+      </profile>
+      <profile name="Annotation profile for spring" enabled="true">
+        <sourceOutputDir name="../EurekaServer2/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../EurekaServer2/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Client1" target="1.8" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="EurekaServer1" target="1.8" />
+      <module name="EurekaServer2" target="1.8" />
+      <module name="Gateway" target="1.8" />
+      <module name="Route" target="1.8" />
+      <module name="server-feign" target="1.8" />
+      <module name="Server1" target="1.8" />
+      <module name="spring" target="1.5" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
